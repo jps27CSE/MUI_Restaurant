@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Header from "./Header";
 
 interface Props {
@@ -9,6 +10,7 @@ const Layout: React.FC<Props> = ({ children }) => {
     <>
       <Header />
       <div>{children}</div>
+      <Footer />
     </>
   );
 };
